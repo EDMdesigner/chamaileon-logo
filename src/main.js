@@ -15,6 +15,6 @@ var createChamaileonLogo = require("./createChamaileonLogo");
 		};
 		global[name] = theModule;
 	}
-})("chamaileonLogo", function () {
+})("createLogo", function () {
 	return createChamaileonLogo;
 });

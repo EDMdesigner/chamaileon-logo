@@ -51,7 +51,7 @@ module.exports = function createChamaileonLogo(config) {
 	pupil.setAttribute("r", eyeR);
 
 	var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-	
+
 	svg.setAttribute("version", "1.1");
 	svg.setAttribute("xmlns", "http://www.w3.org/2000/svg");
 	svg.setAttribute("xmlns:xlink", "http://www.w3.org/1999/xlink");

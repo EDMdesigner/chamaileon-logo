@@ -53,7 +53,7 @@ gulp.task("test", ["jsonlint", "jshint", "jscs"]);
 
 gulp.task("build", createBrowserifyTask({
 	entries: ["./src/main.js"],
-	outputFileName: "chamaileonLogo.js",
+	outputFileName: "createLogo.js",
 	destFolder: "./dist/"
 }));
 
@@ -65,7 +65,7 @@ function createBrowserifyTask(config) {
 			// Specify the entry point of your app
 			debug: true,
 			entries: config.entries,
-			standalone: "chamaileonLogo"
+			standalone: "createLogo"
 		});
 
 		var bundle = function() {
