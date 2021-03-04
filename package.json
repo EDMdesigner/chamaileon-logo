@@ -1,6 +1,6 @@
 {
   "name": "chamaileon-logo",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Logo versions and splashscreens for chamaileon.io",
   "main": "./src/main.js",
   "scripts": {
