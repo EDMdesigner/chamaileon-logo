@@ -83,6 +83,10 @@ module.exports = function createChamaileonLogo(config) {
 
 	function setEyeProps(x, y) {
 		var transform = svg.getScreenCTM();
+		if (!transform) {
+			console.warn('transform is undefined');
+			return svg;
+		};
 		var inverseTransform = transform.inverse();
 
 		var transformedPoint = svg.createSVGPoint();
